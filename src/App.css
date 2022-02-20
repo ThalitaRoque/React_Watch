@@ -1,0 +1,71 @@
+body {
+  background-image: url(https://ae01.alicdn.com/kf/Hd653c3c51e504ede8ce37bf7f4f48003U/Reloj-de-pared-decorativo-con-luz-LED-de-fondo-para-estudio-de-m-sica-accesorio-de.jpg_Q90.jpg_.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center; 
+  flex-direction: column;
+}
+
+
+
+.DigitalClock{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  height:50%;
+  width:60%;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 2%; 
+  color: blue;
+  font-size: 40px;
+}
+
+
+ .Reloj{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+   }
+
+   .Countdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    height:50%;
+    width:60%;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 2%; 
+    color: blue;
+    font-size: 40px;
+   }
+ 
+   .Stopwatch{
+    background-color:whitesmoke;
+    height:50%;
+    width:60%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    padding:2%;
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+
+   }
+
+   .btn {
+    color:black;
+    background-color: rgb(160, 157, 157);
+    border-radius:30%;
+    flex-direction: column;
+   }
+
+  
+  
